@@ -1,0 +1,67 @@
+.register-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(171, 130, 171)
+  }
+  .register-form {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 30%;
+  }
+
+  .box{
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 20px;
+  }
+
+  .d {
+    display: flex; /* Use flexbox to control the alignment */
+    justify-content: space-between; /* Put space between link and button */
+    align-items: center; /* Center vertically */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Style the "Register" button */
+  .button1 {
+    background-color: #344265;
+    color: white;
+    outline: none;
+    /* Add padding or margin to the button to separate it from the link */
+    padding: 5px 10px; /* Adjust the values as needed */
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  
+  .register-form h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #b87333;
+  }
+  
+  .register-form a {
+    color: #b87333 !important;
+  }
+  
+  .register-form a:hover {
+    color: black !important;
+  }
+  
+  .register-form button {
+    background-color: #b87333;
+    color: white;
+  }
+  
+  .register-form input:focus {
+    border: 1px solid #b87333 !important;
+    color: #b87333;
+  }
+  .register-form button:hover {
+    background-color: black;
+    color: white;
+  }
